@@ -1,0 +1,10 @@
+{
+  "name": "pwm_control",
+  "version": "1.0.0",
+  "description": "This is an example of PWM servo control, using UART port. Messages have the next format - 'id;value' - where id is a motor id, values - angle for a motor example: 0;125.55",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^13.0.0"
+  }
+}
